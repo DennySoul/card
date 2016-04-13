@@ -1,0 +1,83 @@
+.body {
+    background-color: lightgray;
+}
+
+.cards-list {
+    width: 50vh;
+    height: 100vh;
+    margin: 0 auto;
+    margin-top: 5vh;
+    position: relative;
+    padding: 0;
+    list-style-type: none;
+}
+
+.card-component-container {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
+}
+
+.card-component-container > .card-image {
+    width: 100%;
+}
+
+.card-component-container > .card-header {
+    background: none;
+    border: none;
+}
+
+input.card-header-input {
+    background: transparent;
+    border: 1px solid lightgray;
+    width: 100%;
+}
+
+.card-component-container > .card-info {
+    background: none;
+    padding: .75rem 0.5rem;
+}
+
+.card-component-container > .card-info > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    line-height: normal;
+}
+
+.card-component-container > .card-buttons-edit {
+    visibility: hidden;
+    display: block;
+    border-top: 1px solid lightgray;
+}
+
+.card-component-container > .card-buttons-save {
+    text-align: right;
+}
+
+.card-component-container > .card-buttons-save > button,
+.card-component-container > .card-buttons-edit > button {
+    background: none;
+    border: none;
+    color: #1685DA;
+    outline: none;
+    margin: 5px;
+    padding: 5px;
+}
+
+.card-button-view {
+    float: right;
+
+}
+.card-button-edit {
+    float: right;
+
+}
+.card-button-select {
+
+
+}
+
+.card-header-input-error {
+    color: red;
+    font-size: 0.75rem;
+}
+
