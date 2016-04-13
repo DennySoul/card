@@ -1,2 +1,3 @@
+<<<<<<< HEAD
 # redux-initial
 Card
